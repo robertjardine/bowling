@@ -243,10 +243,6 @@ def parse_player_info(num_players: int) -> List[Player]:
     return player_info
 
 
-def calculate_last_frame():
-    pass
-
-
 if __name__ == "__main__":
     num_players = parse_num_players()
     if num_players == -1:
